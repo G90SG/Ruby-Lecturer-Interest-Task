@@ -5,6 +5,7 @@
   #Austin Kinsella , Networks, WANs, Programming, Macintosh, Digital Photography
   #Gerry Maloney, Placement, Employement, Emerging Systems, Web Development
 
+# Imports 'csv' library
   require 'csv'
   table = []
 CSV.foreach("RubyLecturers.csv") do |row|
